@@ -38,6 +38,7 @@ El incidente consistió en que se puso un límite codificado rígidamente en el 
 
 El alcance de este error llego al 1% de todos los equipos del mundo, una estimación de 8.5 millones de equipos de varios sectores. Los mas destacados fueron el de transporte aéreo en el cual lo sistemas de los aeropuertos, presentes en aviones y demás, se pusieron o en cuarentena o dejaron de funcionar,  provocando una parada en tierra en la que ningún vuelo de las aerolíneas estadounidenses como United, Delta y American Airlines pudo despegar, mientras que, en el sector de la salud, mas de 900 sistemas de varios países se vieron afectados, provocando interrupciones en los hospitales, haciendo que se tuviera que cambiar el formato de los tramites a papel temporalmente. Además, varias cirugías y emergencias fueron cerradas o pospuestas.
 
+La solución definitiva al fallo global de CrowdStrike del 19 de julio de 2024 consiste en iniciar el ordenador afectado en Modo Seguro (o en el Entorno de Recuperación de Windows), acceder a la ruta C:\Windows\System32\drivers\CrowdStrike y eliminar permanentemente el archivo corrupto C-00000291*.sys.
 
 CONCLUSION
 
