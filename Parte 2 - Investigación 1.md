@@ -12,7 +12,7 @@ Los anticheats funcionan en distintos "Círculos" que van de mas privilegios  a 
 - Servicio del modo usuario: Se ejecuta como un servicio de Windows, usualmente se ejecuta con permisos de system. Se comunica con los drivers del kernel gracias a los IOCTLs (llamadas al sistema en Linux). También revisa conexiones con los servidores, maneja los baneos además de coleccionar y transmitir telemetría (Se ejecuta en ring 3)
 - Game Injected DLL: Inyectado o cargado por los procesos de los juegos. Revisa los checks por parte del modo usuario, se comunica con el servicio y sirve como endpoint para proteger los procesos de los juegos (Se ejecuta en Ring 3)
 
-![[Priv_rings.svg]]
+<img src="Priv_rings.svg" alt="Anillos de Privilegios" width="500">
 
 Ejemplo del funcionamiento atraves de Battle Eye:
 
